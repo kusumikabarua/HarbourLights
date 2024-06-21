@@ -1,0 +1,15 @@
+
+
+.card {
+    position: relative;
+    width: 205px;
+    height: 205px;
+   
+    overflow: hidden;
+}
+
+.titleWrapper {
+    color:  #00357B;
+    font-weight: bold;
+    text-align: center;
+}

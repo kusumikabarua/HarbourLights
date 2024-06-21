@@ -1,0 +1,16 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vm;
+
+}
+.text{
+    font-size: 10px;
+    color:darkblue
+}
+.value{
+    font-size: 15px;
+    font-weight: bold;
+    color: darkblue;
+}

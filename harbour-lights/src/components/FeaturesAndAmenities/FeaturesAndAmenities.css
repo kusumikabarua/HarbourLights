@@ -1,0 +1,28 @@
+.featuresAndAmenities{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    padding-top: 20px;
+    width: 100%;
+   
+}
+.header{  
+    font-size: 25px;
+    color:  #004572;
+    text-align: center;
+}
+.heading{  
+    padding-top: 20px;
+    font-size: 47px;
+    color:  #004572;
+    font-weight: bold;
+}
+.content {
+    color: #343434;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 50px;
+   
+}
+

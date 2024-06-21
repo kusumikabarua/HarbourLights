@@ -4,7 +4,7 @@ import Button from "@mui/material/Button";
 import logo from "../../assets/logo.svg";
 import headerImage from "../../assets/HeaderImage.svg"
 import heroImage from "../../assets/HeroImage.svg"; 
-import Box from '@mui/material/Box';
+
 import "./HeroSection.css"; 
 import Grid from '@mui/material/Grid';
 
@@ -20,12 +20,14 @@ const HeroSection = () => {
       </div>
       <div className="headerContent">
      
-      <Grid container spacing={5}>
-      <Grid item  xm={6}>
+      <Grid container >
+      <Grid item xs={12} md={6}>
       <img src={headerImage} alt="headerImage" className="headerImage"/>
 
         </Grid>
-        <Grid item  xm={6}>
+      
+        <Grid item xs={12} md={6}  sx={{display:"flex",justifyContent:"flex-end"}}>
+       
         <HeaderBox/>
       
           </Grid>

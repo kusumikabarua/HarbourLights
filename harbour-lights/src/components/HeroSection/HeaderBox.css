@@ -1,14 +1,13 @@
 .smallFont {
-    font-size: 13px;
-    
-  }
-  .footer {
-    margin-top: 10px;
-    border-top: 2px solid grey;
-    font-size: 13px;
-    color: lightblue
-  }
-  .box {
-width:200px;height:200px
-
-  }
+  font-size: 13px;
+}
+.footer {
+  margin-top: 10px;
+  border-top: 2px solid grey;
+  font-size: 13px;
+  color: lightblue;
+}
+.box {
+  width: 400px;
+  height: 400px;
+}
