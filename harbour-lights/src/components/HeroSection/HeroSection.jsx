@@ -20,21 +20,12 @@ const HeroSection = () => {
       </div>
       <div className="headerContent">
      
-      <Grid container >
-      <Grid item xs={12} md={6}>
+      
       <img src={headerImage} alt="headerImage" className="headerImage"/>
 
-        </Grid>
-      
-        <Grid item xs={12} md={6}  sx={{display:"flex",justifyContent:"flex-end"}}>
-       
-        <HeaderBox/>
-      
-          </Grid>
-     
-        
-    
-     </Grid>
+     </div>
+     <div className="headerBox">
+     <HeaderBox/>
      </div>
     </div>
   );

@@ -1,12 +1,9 @@
-.footer{
-    
-    background-color: #091D41;
-   
+.footer {
+  background-color: #091d41;
   display: flex;
   justify-content: center;
   align-items: center;
-    color:white;
-    size: 14px;
-    height: 108px;
-
+  color: white;
+  size: 14px;
+  height: 108px;
 }
